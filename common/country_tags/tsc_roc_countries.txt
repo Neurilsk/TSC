@@ -1,2 +1,2 @@
-ROC = "countries/Republic of China.txt"
+ROC = "countries/ROC.txt"
 
