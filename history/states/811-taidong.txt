@@ -1,0 +1,14 @@
+state={
+	id=810
+	name="타이동"
+	provinces={
+		1175 4096 9955 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	history = {
+		owner = ROC
+		controller = ROC
+		add_core_of = ROC
+	}
+}

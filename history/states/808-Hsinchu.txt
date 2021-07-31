@@ -1,0 +1,14 @@
+state={
+	id=807
+	name="신주"
+	provinces={
+		7214 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	history = {
+		owner = ROC
+		controller = ROC
+		add_core_of = ROC
+	}
+}
