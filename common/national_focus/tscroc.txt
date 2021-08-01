@@ -11,7 +11,7 @@ focus_tree = {
 
 	focus = { ###############이게 한 중점###############
 		id = ROC_Time_slip
-		icon = GFX_goal_unknown
+		icon = GFX_goal_continuous_increase_nu
 		cost = 10.00 ##### Cost 1당 7일
 		x = 13
 		y = 0
@@ -25,7 +25,7 @@ focus_tree = {
 
 	focus = {
 		id = ROC_chivic
-		icon = GFX_goal_unknown
+		icon = GFX_focus_attack_japan
 		cost = 10.00
 		x = 27
 		y = 1
@@ -33,7 +33,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_MJD_usc
-		icon = GFX_goal_unknown
+		icon = GFX_focus_hol_the_foundations_of_defense
 		cost = 10.00
 		x = 23
 		y = 4
@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_MJD_ROC
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_whampoa_military_academy
 		cost = 10.00
 		x = 25
 		y = 4
@@ -49,7 +49,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_KMT_ROC
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_china1
 		cost = 10.00
 		x = 27
 		y = 4
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_gaoxiong_SY
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_navy_battleship2
 		cost = 10.00
 		x = 27
 		y = 0
@@ -65,7 +65,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_landing_JEJU
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_position_armies
 		cost = 10.00
 		x = 1
 		y = 14
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_landing_gagosima
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_position_armies
 		cost = 10.00
 		x = 5
 		y = 14
@@ -81,7 +81,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_chiang_help_1
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_cooperation_with_the_nationalists
 		cost = 10.00
 		x = 9
 		y = 15
@@ -89,7 +89,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_with_chiang
-		icon = GFX_goal_unknown
+		icon = GFX_focus_prc_remove_chiang_kai_shek
 		cost = 10.00
 		prerequisite = {
 			focus = ROC_Time_slip
@@ -100,7 +100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_independent
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_secret_weapon
 		cost = 10.00
 		prerequisite = {
 			focus = ROC_with_chiang
@@ -111,7 +111,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROC_martial_law
-		icon = GFX_goal_unknown
+		icon = GFX_focus_hol_the_foundations_of_defense
 		cost = 10.00
 		prerequisite = {
 			focus = ROC_independent
