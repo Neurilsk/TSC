@@ -8,14 +8,21 @@ focus_tree = {
 		}
 	}
 	default = no
-	focus = {
+
+	focus = { ###############이게 한 중점###############
 		id = ROC_Time_slip
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 10.00 ##### Cost 1당 7일
 		x = 13
-		y = -1
-
+		y = 0
+		completion_reward = {
+			add_stability = 0.1
+			#이렇게 하면 안정도를 10%만큼 줍니다
+			#하츠에서는 퍼센트를 나타내는 효과는
+			#0.01 = 1%, 0.1 = 10%, 1 = 100%를 나타냅니다
+		}
 	}
+
 	focus = {
 		id = ROC_chivic
 		icon = GFX_goal_unknown
