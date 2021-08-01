@@ -1,0 +1,513 @@
+focus_tree = {
+	id = tscroc
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROC
+		}
+	}
+	default = no
+	focus = {
+		id = ROC_Time_slip
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 13
+		y = -1
+
+	}
+	focus = {
+		id = ROC_chivic
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 27
+		y = 1
+
+	}
+	focus = {
+		id = ROC_MJD_usc
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = ROC_MJD_ROC
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = ROC_KMT_ROC
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = ROC_gaoxiong_SY
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 27
+		y = 0
+
+	}
+	focus = {
+		id = ROC_landing_JEJU
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 1
+		y = 14
+
+	}
+	focus = {
+		id = ROC_landing_gagosima
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 5
+		y = 14
+
+	}
+	focus = {
+		id = ROC_chiang_help_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 9
+		y = 15
+
+	}
+	focus = {
+		id = ROC_with_chiang
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_Time_slip
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = ROC_independent
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_with_chiang
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = ROC_martial_law
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_independent
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = ROC_gdx_rev
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_martial_law
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = ROC_gdc_threaten
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_gdx_rev
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = ROC_gdx_ok
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_gdc_threaten
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = ROC_gdc_no
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_gdc_threaten
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = ROC_threaten_gxc
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_gdx_rev
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = ROC_gxc_ok
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_threaten_gxc
+		}
+		mutually_exclusive = {
+			focus = ROC_gxc_no
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = ROC_gxc_no
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_threaten_gxc
+		}
+		mutually_exclusive = {
+			focus = ROC_gxc_ok
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = ROC_threaten_yun
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_martial_law
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = ROC_yun_ok
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_threaten_yun
+		}
+		mutually_exclusive = {
+			focus = ROC_yun_no
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = ROC_yun_no
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_threaten_yun
+		}
+		mutually_exclusive = {
+			focus = ROC_yun_ok
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = ROC_yun_attack
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_yun_no
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = ROC_yun_donghwa
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_yun_attack
+			focus = ROC_yun_ok
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = ROC_election
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_chivic
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = ROC_elect_MJD
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_election
+		}
+		mutually_exclusive = {
+			focus = ROC-elect_KMT
+			focus = ROC_elect_LDD
+			focus = ROC_elect_kudeta
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = ROC-elect_KMT
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_election
+		}
+		mutually_exclusive = {
+			focus = ROC_elect_MJD
+			focus = ROC_elect_LDD
+			focus = ROC_elect_kudeta
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = ROC_elect_LDD
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_election
+		}
+		mutually_exclusive = {
+			focus = ROC_elect_MJD
+			focus = ROC-elect_KMT
+			focus = ROC_elect_kudeta
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = ROC_gxc_attack
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_gxc_no
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = ROC_cjwar
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_new_gov_3
+			focus = ROC_new_gov_2
+			focus = ROC_new_gov_1
+		}
+		x = 9
+		y = 11
+
+	}
+	focus = {
+		id = ROC_hainan_meeting
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_cjwar
+		}
+		mutually_exclusive = {
+			focus = ROC_with_jap
+		}
+		x = 6
+		y = 12
+
+	}
+	focus = {
+		id = ROC_with_jap
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_cjwar
+		}
+		mutually_exclusive = {
+			focus = ROC_hainan_meeting
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = ROC_elect_kudeta
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_election
+		}
+		mutually_exclusive = {
+			focus = ROC_elect_MJD
+			focus = ROC-elect_KMT
+			focus = ROC_elect_LDD
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = ROC_gxc_donghwa
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_gxc_attack
+			focus = ROC_gxc_ok
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = ROC_gdc_attack
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_gdc_no
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = ROC_gdc_donghwa
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_gdc_attack
+			focus = ROC_gdx_ok
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = ROC_new_gov_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_Nanjing_huidan
+		}
+		mutually_exclusive = {
+			focus = ROC_new_gov_2
+			focus = ROC_new_gov_3
+		}
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = ROC_new_gov_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_Nanjing_huidan
+		}
+		mutually_exclusive = {
+			focus = ROC_new_gov_1
+			focus = ROC_new_gov_3
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = ROC_Nanjing_huidan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_gdc_donghwa
+		}
+		prerequisite = {
+			focus = ROC_gxc_donghwa
+		}
+		prerequisite = {
+			focus = ROC_yun_donghwa
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = ROC_new_gov_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_Nanjing_huidan
+		}
+		mutually_exclusive = {
+			focus = ROC_new_gov_1
+			focus = ROC_new_gov_2
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = ROC_kangzhan_now
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_hainan_meeting
+		}
+		mutually_exclusive = {
+			focus = ROC_kangzhan_withhold
+		}
+		x = 3
+		y = 13
+
+	}
+	focus = {
+		id = ROC_kangzhan_withhold
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROC_hainan_meeting
+		}
+		mutually_exclusive = {
+			focus = ROC_kangzhan_now
+		}
+		x = 9
+		y = 13
+
+	}
+}
