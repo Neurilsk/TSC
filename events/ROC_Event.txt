@@ -1,18 +1,122 @@
 ﻿add_namespace = ROC
 
 country_event = {
-	id = ROC.1
-	title = ROC.1.t
-	desc = ROC.1.d
-	picture = GFX_report_event_chamberlain_announce
+	id = ROC.0
+	title = ROC.0.t
+	desc = ROC.0.d
+	picture = GFX_report_event_chinese_soldiers_fighting
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-		
+	option = {
+		name = ROC.0.a
+		ai_chance = {
+		    factor = 0.5
+		}
+		hidden_effect = {
+			country_event = {
+				id = ROC.1
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ROC.1
+	title = ROC.1.t
+	desc = ROC.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	fire_only_once = yes
+	
 	option = {
 		name = ROC.1.a
 		ai_chance = {
 		    factor = 0.5
+		}
+		hidden_effect = {
+			country_event = {
+				id = ROC.2
+				days = 1
+			}
+		}
+	}
+}
+country_event = {
+	id = ROC.2
+	title = ROC.2.t
+	desc = ROC.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ROC.2.a
+		ai_chance = {
+		    factor = 0.5
+		}
+		unlock_national_focus = ROC_independent
+	}
+}
+country_event = {
+	id = ROC.3
+	title = ROC.3.t
+	desc = ROC.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ROC.2.a
+		ai_chance = {
+		    factor = 0.5
+		}
+	}
+}
+country_event = {
+	id = ROC.4
+	title = ROC.4.t
+	desc = ROC.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ROC.4.a
+		ai_chance = {
+		    factor = 0.5
+		}
+	}
+}
+country_event = {
+	id = ROC.5
+	title = ROC.5.t
+	desc = ROC.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = ROC.5.a
+		ai_chance = {
+		    factor = 0.5
+		}
+		hidden_effect = {
+			593 = {
+				add_core_of = GND
+			}
+			592 = {
+				add_core_of = GND
+			}
+			591 = {
+				add_core_of = GND
+			}
+		}
+		GND = {
+			transfer_state = 591
+			transfer_state = 592
+			transfer_state = 593
 		}
 	}
 }

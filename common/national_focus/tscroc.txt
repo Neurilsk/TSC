@@ -96,12 +96,22 @@ focus_tree = {
 		}
 		x = 13
 		y = 1
-
+		completion_reward = {
+			country_event = {
+				id = ROC.0
+				days = 2
+			}
+		}
 	}
 	focus = {
 		id = ROC_independent
 		icon = GFX_goal_generic_secret_weapon
 		cost = 10.00
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
 		prerequisite = {
 			focus = ROC_with_chiang
 		}
@@ -118,7 +128,11 @@ focus_tree = {
 		}
 		x = 13
 		y = 3
-
+		completion_reward = {
+			country_event = {
+				id = ROC.3
+			}
+		}
 	}
 	focus = {
 		id = ROC_gdx_rev
@@ -129,7 +143,11 @@ focus_tree = {
 		}
 		x = 10
 		y = 4
-
+		completion_reward = {
+			country_event = {
+				id = ROC.4
+			}
+		}
 	}
 	focus = {
 		id = ROC_gdc_threaten
@@ -425,7 +443,11 @@ focus_tree = {
 		}
 		x = 3
 		y = 8
-
+		completion_reward = {
+			country_event = {
+				id = ROC.5
+			}
+		}
 	}
 	focus = {
 		id = ROC_new_gov_1
