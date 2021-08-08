@@ -281,7 +281,11 @@ focus_tree = {
 		}
 		x = 16
 		y = 8
-
+		completion_reward = {
+			country_event = {
+				id = ROC.7
+			}
+		}
 	}
 	focus = {
 		id = ROC_election
@@ -420,7 +424,11 @@ focus_tree = {
 		}
 		x = 9
 		y = 8
-
+		completion_reward = {
+			country_event = {
+				id = ROC.6
+			}
+		}
 	}
 	focus = {
 		id = ROC_gdc_attack
