@@ -470,7 +470,9 @@ focus_tree = {
 		}
 		x = 5
 		y = 10
-
+		completion_reward = {
+			set_cosmetic_tag = CHI_GWA
+		}
 	}
 	focus = {
 		id = ROC_new_gov_2
@@ -485,7 +487,9 @@ focus_tree = {
 		}
 		x = 9
 		y = 10
-
+		completion_reward = {
+			set_cosmetic_tag = CHI_TAI
+		}
 	}
 	focus = {
 		id = ROC_Nanjing_huidan
@@ -517,7 +521,9 @@ focus_tree = {
 		}
 		x = 13
 		y = 10
-
+		completion_reward = {
+			set_cosmetic_tag = CHI_NAM
+		}
 	}
 	focus = {
 		id = ROC_kangzhan_now

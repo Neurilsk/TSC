@@ -114,7 +114,9 @@ country_event = {
 				add_core_of = GND
 			}
 		}
-		ROC = { add_to_faction = GND }
+		ROC = {
+			puppet = GND
+		}
 		GND = {
 			transfer_state = 591
 			transfer_state = 592
@@ -135,8 +137,9 @@ country_event = {
 		ai_chance = {
 		    factor = 0.5
 		}
-		ROC = { add_to_faction = GXC }
-
+		ROC = {
+			puppet = GXC
+		}
 		GXC = {
 			transfer_state = 599
 			transfer_state = 594
@@ -156,8 +159,9 @@ country_event = {
 		ai_chance = {
 		    factor = 0.5
 		}
-		ROC = { add_to_faction = YUN }
-
+		ROC = {
+			puppet = YUN
+		}
 		YUN = {
 			transfer_state = 325
 			transfer_state = 747
