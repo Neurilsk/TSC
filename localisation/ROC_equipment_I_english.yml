@@ -1,0 +1,299 @@
+﻿l_english:
+ 
+ pcc_1:0 "초계함 I"
+ pcc_2:0 "초계함 II"
+ pcc_3:0 "초계함 III"
+ ff_1:0 "호위함 I"
+ ff_2:0 "호위함 II"
+ ff_3:0 "호위함 III"
+ ddh_1:0 "미사일구축함 I"
+ ddh_2:0 "미사일구축함 II"
+ ddh_3:0 "미사일구축함 III"
+ ddg_1:0 "이지스함 I"
+ ddg_2:0 "이지스함 II"
+ pk_1:0 "고속정 I"
+ pk_2:0 "고속정 II"
+ pk_3:0 "고속함"
+ 
+ carrier_1:0 "항공모함 I"
+ carrier_2:0 "항공모함 II"
+
+ cruiser_1:0 "순양함 I"
+ cruiser_2:0 "순양함 II"
+
+ ss_1:0 "공격잠수함 I"
+ ss_2:0 "공격잠수함 II"
+ ss_3:0 "공격잠수함 III"
+ ss_4:0 "공격잠수함 IV"
+ ss_5:0 "공격잠수함 V"
+
+ ballistic_missile_equipment:0 "탄도미사일"
+ ballistic_missile_equipment_1:0 "구형 탄도미사일"
+ ballistic_missile_equipment_2:0 "전기형 탄도미사일"
+ ballistic_missile_equipment_3:0 "진보된 탄도미사일"
+ ballistic_missile_equipment_4:0 "중거리 미사일"
+ ballistic_missile_equipment_5:0 "대륙간 탄도미사일"
+ PRK_ballistic_missile_equipment_1:0 "화성-5"
+ PRK_ballistic_missile_equipment_2:0 "화성-6"
+ PRK_ballistic_missile_equipment_3:0 "SCUD-ER"
+ 
+ modern_motorized_equipment:0 "현대 중형트럭"
+ modern_amphibious_mechanized_equipment:0 "현대 상륙장갑차"
+ light_vehicle_equipment:0 "군용 경차량"
+ light_vehicle_equipment_0:0 "전기 군용 경차량"
+ light_vehicle_equipment_1:0 "진보된 군용 경차량"
+ light_vehicle_equipment_2:0 "군용 전술차량"
+ 
+ ROC_light_vehicle_equipment_0:0 "K-111"
+ ROC_light_vehicle_equipment_1:0 "K-311"
+ ROC_light_vehicle_equipment_2:0 "K-151"
+ 
+ 
+ light_mun_equipment:0 "경탄약"
+ heavy_mun_equipment:0 "중탄약"
+ 
+ light_mun_equipment_0:0 "경탄약"
+ heavy_mun_equipment_0:0 "중탄약"
+ ROC_light_mun_equipment_0:0 "소총/지원하기 보병용탄약"
+ ROC_heavy_mun_equipment_0:0 "포탄/전차포탄 중화기탄약"
+ 
+ 
+ ROC_modern_motorized_equipment:0 "K-511 두돈반"
+
+ 
+ engineer_equipment:0 "공병장비"
+ engineer_equipment_0:0 "공병장비"
+ 
+ ROC_modern_amphibious_mechanized_equipment:0 "V-150S"
+ 
+ support_infantry_equipment:0 "지원화기"
+ support_infantry_equipment_0:0 "1960년 지원화기"
+ support_infantry_equipment_1:0 "1970년 지원화기"
+ support_infantry_equipment_2:0 "1985년 지원화기"
+ support_infantry_equipment_3:0 "1995년 지원화기"
+ support_infantry_equipment_4:0 "2005년 지원화기"
+ 
+ 
+ 
+ ROC_support_infantry_equipment_0:0 "M1919 경기관총 & 슈퍼바주카"
+ ROC_support_infantry_equipment_1:0 "M60 경기관총 & M72LAW"
+ ROC_support_infantry_equipment_2:0 "M60 경기관총 & M67 무반동포"
+ ROC_support_infantry_equipment_3:0 "K3 경기관총 & 판저파우스트 3"
+ ROC_support_infantry_equipment_4:0 "K12 기관총 & 판저파우스트 3-IT"
+ 
+ infantry_equipment_4:0 "1960년대 보병장비"
+ infantry_equipment_5:0 "1970년대 보병장비"
+ infantry_equipment_6:0 "1980년대 보병장비"
+ infantry_equipment_7:0 "1990년대 보병장비"
+ infantry_equipment_8:0 "2000년대 보병장비"
+ infantry_equipment_9:0 "2010년대 보병장비"
+ 
+
+ ROC_infantry_equipment_4:0 "Type 57"
+ ROC_infantry_equipment_5:0 "Type 65"
+ ROC_infantry_equipment_6:0 "T65K2"
+ ROC_infantry_equipment_7:0 "T86"
+ ROC_infantry_equipment_8:0 "T91"
+ ROC_infantry_equipment_9:0 "M4A1"
+ 
+ 
+
+ m_1950_mbt:0 "1950년대 주력전차"
+ m_1960_mbt:0 "1960년대 주력전차"
+ m_1970_mbt:0 "1970년대 주력전차"
+ m_1980_mbt:0 "1980년대 주력전차"
+ m_1990_mbt:0 "1990년대 주력전차"
+ m_2000_mbt:0 "2000년대 주력전차"
+ m_2010_mbt:0 "2010년대 주력전차"
+
+ ROC_m_1960_mbt:0 "M41D"
+ ROC_m_1970_mbt:0 "M48A3"
+ ROC_m_1980_mbt:0 "CM-11"
+ ROC_m_1990_mbt:0 "CM-12"
+ ROC_m_2000_mbt:0 "M60A3 TTS"
+ ROC_m_2010_mbt:0 "K2 흑표"
+ 
+ m_1970_APC_equipment:0 "1970년대 APC"
+ m_1980_APC_equipment:0 "1980년대 APC"
+ m_1990_APC_equipment:0 "1990년대 APC"
+ m_2000_APC_equipment:0 "2000년대 APC"
+ m_2010_APC_equipment:0 "2010년대 APC"
+ ROC_m_1970_APC_equipment:0 "KM113A1"
+ ROC_m_1980_APC_equipment:0 "CM-21"
+ ROC_m_1990_APC_equipment:0 "CM-21A1"
+ ROC_m_2000_APC_equipment:0 "CM-32"
+ ROC_m_2010_APC_equipment:0 "CM-33"
+ 
+ IFV_equipment:0 "보병전투차"
+ m_1970_IFV_equipment:0 "1970년대 보병전투차"
+ m_1980_IFV_equipment:0 "1980년대 보병전투차"
+ m_1990_IFV_equipment:0 "1990년대 보병전투차"
+ m_2000_IFV_equipment:0 "2000년대 보병전투차"
+ m_2010_IFV_equipment:0 "2010년대 보병전투차"
+ ROC_m_1980_IFV_equipment:0 "K225 KAFV"
+ ROC_m_1990_IFV_equipment:0 "K230M KAFV"
+ ROC_m_2000_IFV_equipment:0 "BMP-3"
+ ROC_m_2010_IFV_equipment:0 "K21 IFV"
+ 
+ 
+ modern_armored_car_equipment:0 "정찰장갑차"
+ JDF_modern_armored_car_equipment:0 "87식 정찰경계차"
+
+ modern_artillery_equipment_1:0 "현대 견인포 I"
+ modern_artillery_equipment_2:0 "현대 견인포 II"
+ modern_artillery_equipment_3:0 "현대 견인포 III"
+ ROC_modern_artillery_equipment_1:0 "M101A1 105mm"
+ ROC_modern_artillery_equipment_2:0 "M114 155mm"
+ ROC_modern_artillery_equipment_3:0 "KH179 155mm"
+ 
+ 
+ m_1970_spaa_equipment:0 "1970년대 대공자주포"
+ m_1980_spaa_equipment:0 "1980년대 대공자주포"
+ m_1990_spaa_equipment:0 "1990년대 대공자주포"
+ m_2000_spaa_equipment:0 "2000년대 대공자주포"
+ m_2010_spaa_equipment:0 "2010년대 대공자주포"
+ ROC_m_1970_spaa_equipment:0 "승공포"
+ ROC_m_1980_spaa_equipment:0 "K263 자주발칸포"
+ ROC_m_1990_spaa_equipment:0 "K263A1 자주발칸포"
+ ROC_m_2000_spaa_equipment:0 "K30 비호"
+ ROC_m_2010_spaa_equipment:0 "K30 복합비호"
+ 
+ 
+ m_1970_sp_equipment:0 "1970년대 자주포"
+ m_1980_sp_equipment:0 "1980년대 자주포"
+ m_1990_sp_equipment:0 "1990년대 자주포"
+ m_2000_sp_equipment:0 "2000년대 자주포"
+ m_2010_sp_equipment:0 "2010년대 자주포"
+ ROC_m_1970_sp_equipment:0 "KM110"
+ ROC_m_1980_sp_equipment:0 "K-55"
+ ROC_m_1990_sp_equipment:0 "K9 썬더"
+ ROC_m_2000_sp_equipment:0 "K-55A1"
+ ROC_m_2010_sp_equipment:0 "K9A1 썬더"
+ 
+ m_1970_mlrs_equipment:0 "1970년대 다연장로켓포"
+ m_1980_mlrs_equipment:0 "1980년대 다연장로켓포"
+ m_1990_mlrs_equipment:0 "1990년대 다연장로켓포"
+ m_2000_mlrs_equipment:0 "2000년대 다연장로켓포"
+ m_2010_mlrs_equipment:0 "2010년대 다연장로켓포"
+ ROC_m_1980_mlrs_equipment:0 "K136 구룡"
+ ROC_m_1990_mlrs_equipment:0 "M270 MLRS"
+ ROC_m_2000_mlrs_equipment:0 "M270A1 MLRS"
+ ROC_m_2010_mlrs_equipment:0 "천무"
+ 
+ m_1970_manpad_equipment:0 "1970년대 맨패드"
+ m_1980_manpad_equipment:0 "1980년대 맨패드"
+ m_1990_manpad_equipment:0 "1990년대 맨패드"
+ m_2000_manpad_equipment:0 "2000년대 맨패드"
+ ROC_m_1980_manpad_equipment:0 "휴샘 스팅어"
+ ROC_m_1990_manpad_equipment:0 "휴샘 미스트랄"
+ ROC_m_2000_manpad_equipment:0 "신궁"
+ manpad_equipment:0 "맨패드" 
+ manpad_equipment_desc:0 "맨패드" 
+ 
+ m_1970_atgm_equipment:0 "1970년대 대전차미사일"
+ m_1980_atgm_equipment:0 "1980년대 대전차미사일"
+ m_1990_atgm_equipment:0 "1990년대 대전차미사일"
+ m_2000_atgm_equipment:0 "2000년대 대전차미사일"
+ m_2010_atgm_equipment:0 "2010년대 대전차미사일"
+
+ 
+ ROC_m_1970_atgm_equipment:0 "TOW"
+ ROC_m_1980_atgm_equipment:0 "I-TOW"
+ ROC_m_1990_atgm_equipment:0 "TOW-2"
+ ROC_m_2000_atgm_equipment:0 "메티스-M"
+ ROC_m_2010_atgm_equipment:0 "현궁"
+ 
+ heavy_anti_air_eq:0 "대공발칸포 장비"
+ aa_missile:0 "중방공미사일 장비"
+ 
+ ROC_heavy_anti_air_eq:0 "KM167"
+ ROC_aa_missile:0 "HAWK 지대공미사일"
+
+ m_1970_jet_multirole_equipment:0 "1970년대 멀티롤"
+ m_1980_jet_multirole_equipment:0 "1980년대 멀티롤"
+ m_1990_jet_multirole_equipment:0 "1990년대 멀티롤"
+ m_2000_jet_multirole_equipment:0 "2000년대 멀티롤"
+ m_2010_jet_multirole_equipment:0 "2010년대 멀티롤"
+ ROC_m_1970_jet_multirole_equipment:0 "F-5A"
+ ROC_m_1980_jet_multirole_equipment:0 "F-4D 피스 스펙테이터"
+ ROC_m_1990_jet_multirole_equipment:0 "F-4E 피스 페산트"
+ ROC_m_2000_jet_multirole_equipment:0 "F-15K 슬램이글"
+ ROC_m_2010_jet_multirole_equipment:0 "F-15KM 슬램이글"
+ 
+ 
+ jet_multirole_equipment_desc:0 "현대의 멀티롤들은,제공임무도 가능하지만 또한 지상지원도 가능합니다. 이 전투기들은 2가지임무를 유연하게 수행하는데 특화되어있습니다."
+ ROC_jet_multirole_equipment_desc:0 "현대의 멀티롤들은,제공임무도 가능하지만 또한 지상지원도 가능합니다. 이 전투기들은 2가지임무를 유연하게 수행하는데 특화되어있습니다. \n\n\n\n\n£f-15k\n\n\n\n\n."
+ 
+ 
+ m_1970_jet_fighter_equipment:0 "1970년대 제공전투기"
+ m_1980_jet_fighter_equipment:0 "1980년대 제공전투기"
+ m_1990_jet_fighter_equipment:0 "1990년대 제공전투기"
+ m_2000_jet_fighter_equipment:0 "2000년대 제공전투기"
+ ROC_m_1970_jet_fighter_equipment:0 "F-5 제공호"
+ ROC_m_1980_jet_fighter_equipment:0 "F-4 팬텀"
+ ROC_m_1990_jet_fighter_equipment:0 "F-16C 피스 브리지"
+ ROC_m_2000_jet_fighter_equipment:0 "KF-16C"
+ 
+ m_1970_jet_CAS_equipment:0 "1970년대 근접항공지원기"
+ m_1980_jet_CAS_equipment:0 "1980년대 근접항공지원기"
+ m_1990_jet_CAS_equipment:0 "1990년대 근접항공지원기"
+ m_2000_jet_CAS_equipment:0 "2000년대 근접항공지원기"
+ m_2010_jet_CAS_equipment:0 "2010년대 근접항공지원기"
+ ROC_m_1970_jet_CAS_equipment:0 "A-37B"
+ ROC_m_1980_jet_CAS_equipment:0 "F-4D"
+ ROC_m_2010_jet_CAS_equipment:0 "FA-50"
+ 
+ m_1970_attack_helicopter_equipment:0 "1970년대 공격헬기"
+ m_1980_attack_helicopter_equipment:0 "1980년대 공격헬기"
+ m_1990_attack_helicopter_equipment:0 "1990년대 공격헬기"
+ m_2000_attack_helicopter_equipment:0 "2000년대 공격헬기"
+ m_2010_attack_helicopter_equipment:0 "2010년대 공격헬기"
+ ROC_m_1970_attack_helicopter_equipment:0 "AH-1 코브라"
+ ROC_m_1980_attack_helicopter_equipment:0 "AH-1S 코브라"
+ ROC_m_1990_attack_helicopter_equipment:0 "AH-1W 슈퍼코브라"
+ ROC_m_2000_attack_helicopter_equipment:0 "AH-1Z 바이퍼"
+ ROC_m_2010_attack_helicopter_equipment:0 "AH-64E 아파치 가디언"
+ 
+ m_1970_util_helicopter_equipment:0 "1970년대 수송헬기"
+ m_1980_util_helicopter_equipment:0 "1980년대 수송헬기"
+ m_1990_util_helicopter_equipment:0 "1990년대 수송헬기"
+ m_2000_util_helicopter_equipment:0 "2000년대 수송헬기"
+ m_2010_util_helicopter_equipment:0 "2010년대 수송헬기"
+ ROC_m_1970_util_helicopter_equipment:0 "UH-1 휴이"
+ ROC_m_1980_util_helicopter_equipment:0 "UH-1H 휴이"
+ ROC_m_1990_util_helicopter_equipment:0 "UH-60P 블랙호크"
+ ROC_m_2000_util_helicopter_equipment:0 "CH-47 치누크"
+ ROC_m_2010_util_helicopter_equipment:0 "수리온"
+ 
+ maritime_helicopter_equipment_1:0 "현대 해군용다목적헬기"
+ ROC_maritime_helicopter_equipment_1:0 "슈퍼링스"
+ 
+ ship_hull_PK_1:0 "고속정 선체 I"
+ ship_hull_PK_2:0 "고속정 선체 II"
+ ship_hull_PK_3:0 "고속함 선체"
+ 
+ ship_hull_ff_1:0 "호위함 선체 I"
+ ship_hull_FF_2:0 "호위함 선체 II"
+ ship_hull_FF_3:0 "호위함 선체 III"
+ 
+ pcc_1:0 "초계함 선체 I"
+ ship_hull_PCC_2:0 "초계함 선체 II"
+ ship_hull_PCC_3:0 "초계함 선체 III"
+ 
+ ship_hull_modern_DDH_1:0 "구축함 선체 I"
+ ship_hull_modern_DDH_2:0 "구축함 선체 II"
+ ship_hull_modern_DDH_3:0 "구축함 선체 III"
+ 
+ ship_hull_modern_DDG_1:0 "이지스 구축함 선체 I"
+ ship_hull_modern_DDG_2:0 "이지스 구축함 선체 II"
+ 
+ ship_hull_modern_submarine_1:0 "공격잠수함 선체 I"
+ ship_hull_modern_submarine_2:0 "공격잠수함 선체 II"
+ ship_hull_modern_submarine_3:0 "공격잠수함 선체 III"
+ ship_hull_modern_submarine_4:0 "공격잠수함 선체 IV"
+ ship_hull_modern_submarine_5:0 "공격잠수함 선체 V"
+
+ ship_hull_modern_CV_1:0  "항공모함 선체"
+ 
+ ship_hull_modern_cruiser_1:0 "이지스 순양함 선체 I"
+ ship_hull_modern_cruiser_2:0 "이지스 순양함 선체 II"
